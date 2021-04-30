@@ -1,10 +1,16 @@
 # CNN_Spectrogram_Algorithm
-A method to classify spectrograms from raw EEG data using a convolutional neural network (CNN)
 
-SpectrogramClassificationAlgorithm.ipynb: trains the model on data from train and valid folders, tests on data from test folder
-Use_pretrained_model.ipynb: uses our model weights from trained model, tests on new test data from test folder
+A method to classify spectrograms from raw EEG data using a convolutional neural network (CNN).
 
-Code in fastai folder comes from fastai version 0.7 by Jeremy Howard: https://www.fast.ai/
+----
+
+## Usage
+
+`SpectrogramClassificationAlgorithm.ipynb`: trains the model on data from `train` and `valid` folders, tests on data from `test` folder.
+
+`Use_pretrained_model.ipynb`: uses the model weights from the trained model, and tests on new test data from `test` folder
+
+Code in `fastai` folder comes from fastai version 0.7 by Jeremy Howard: https://www.fast.ai/
 
 ## Data Structure
 
