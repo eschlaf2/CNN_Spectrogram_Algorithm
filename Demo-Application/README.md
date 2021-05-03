@@ -1,4 +1,4 @@
-# Example application of the CNN spike ripple detector.
+# Example application of the CNN spike ripple detector
 
 The CNN spike ripple detector: a method to classify spectrograms from EEG data using a convolutional neural network (CNN).
 
