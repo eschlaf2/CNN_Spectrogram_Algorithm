@@ -8,7 +8,7 @@ The CNN spike ripple detector: a method to classify spectrograms from EEG data u
 
 To run a demonstration of the CNN spike ripple detector,
 
-- Prepare the [environment](#../README.md/environment)
+- Prepare the [environment](../README.md/#environment)
 - Open and run the notebook [Demo_Apply_CNN.ipynb](Demo_Apply_CNN.ipynb)
 
 This demonstration detects spike ripples in the files (see [demo_data](./demo_data))
