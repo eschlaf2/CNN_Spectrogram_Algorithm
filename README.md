@@ -42,14 +42,14 @@ Below is a step-by-step method to prepare an environment capable of running the 
 
 0. Ensure you have both conda and pip installed
 
-1. In terminal, load in a virtual environment with conda, give it a name (`environment_name`):
+1. In terminal, load in a virtual environment with conda, give it a name (`cnn-specgram`):
 
-`conda env create -f new_enviro.yml -n environment_name`
+`conda env create -f new_enviro.yml -n cnn-specgram`
 
-`conda activate environment_name`
+`conda activate cnn-specgram`
 
 3. Open the jupyter console to run notebooks:
 
-`jupyter notebook` 
+`jupyter lab` 
 
-4. When done, use `conda deactivate` to deactivate your virtual environment. To reload this environment in the future, use `conda activate environment_name`, skipping step 2.
+4. When done, use `conda deactivate` to deactivate your virtual environment. To reload this environment in the future, use `conda activate cnn-specgram`, skipping step 2.
