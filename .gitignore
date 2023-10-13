@@ -118,4 +118,4 @@ venv.bak/
 *.log
 *.html
 Demo-Application/demo_spectra_images/test
-fastai/__pycache__
+fastai*/__pycache__
