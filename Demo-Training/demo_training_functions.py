@@ -1,13 +1,13 @@
 import sys
 sys.path.insert(1, '../')
 import matplotlib.pyplot as plt
-from fastai.imports import *
-from fastai.transforms import *
-from fastai.conv_learner import *
-from fastai.model import *
-from fastai.dataset import *
-from fastai.sgdr import *
-from fastai.plots import *
+from fastai_v1.imports import *
+from fastai_v1.transforms import *
+from fastai_v1.conv_learner import *
+from fastai_v1.model import *
+from fastai_v1.dataset import *
+from fastai_v1.sgdr import *
+from fastai_v1.plots import *
 
 def check_image_count(IMAGE_PATH):
 
