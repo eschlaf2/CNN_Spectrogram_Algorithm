@@ -3,7 +3,7 @@ channels:
   - defaults
 dependencies:
   - python=3.8
-#  - bcolz
+  - bcolz
   - jupyter
   - pytorch
   - opencv
