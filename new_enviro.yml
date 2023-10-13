@@ -1,9 +1,10 @@
-name: test_enviro
+name: cnn-specgram
 channels:
   - defaults
 dependencies:
-  - bcolz
-  - notebook
+  - python=3.8
+#  - bcolz
+  - jupyter
   - pytorch
   - opencv
   - scipy
@@ -19,4 +20,3 @@ dependencies:
     - tqdm
     - torchtext
     - torchvision
-prefix: /anaconda3/envs/test_enviro
