@@ -1,17 +1,17 @@
-import sys                                      # + path to fastai in root repo directory.
+import sys                                      # + path to fastai_v1 in root repo directory.
 sys.path.insert(1, '../')
 
 import numpy as np                              # import all required packages.
 import scipy
 from scipy.ndimage import gaussian_filter
 import matplotlib.pyplot as plt
-from fastai.imports import *
-from fastai.transforms import *
-from fastai.conv_learner import *
-from fastai.model import *
-from fastai.dataset import *
-from fastai.sgdr import *
-from fastai.plots import *
+from fastai_v1.imports import *
+from fastai_v1.transforms import *
+from fastai_v1.conv_learner import *
+from fastai_v1.model import *
+from fastai_v1.dataset import *
+from fastai_v1.sgdr import *
+from fastai_v1.plots import *
 from sklearn import metrics
 
 def hannspecgramc(data,time):                  # Given data, compute spectrogram images.
