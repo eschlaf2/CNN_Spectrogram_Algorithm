@@ -10,7 +10,7 @@ See folder [Demo-Application](./Demo-Application) for an example applciation of 
 
 See folder [Demo-Training](./Demo-Training) for an example of how to train the CNN spike ripple detector using simulated spectrogram images.
 
-Code in folder `fastai` comes from fastai version 0.7 by Jeremy Howard: https://www.fast.ai/
+Code in folder `fastai_v1` comes from fastai version 0.7 by Jeremy Howard: https://www.fast.ai/
 
 ## Data Structure
 
